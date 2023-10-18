@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body , html {
+	
+  	margin: 0;
+	font-family: arial;
+}
+
+
+.logo img{
+	height: 100px;
+	width: auto;
+}
+.product img {
+	height:300px;
+	width: auto;
+	margin-bottom: 2px;
+	margin: 5px;
+	margin-top: 20px;
+}
+.product img:hover {
+	
+	border: solid 2px cyan;
+	-webkit-filter: drop-shadow(0 0 3px black);
+	-o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+.productname {
+	text-decoration: none;
+	font-size: 12px;
+	margin-right: 10px;
+	color:black;
+	font-weight: bold;
+	border-bottom: solid gray 2px;
+	cursor: default;
+	
+}
+.price {
+	font-style: italic;
+	color: black;
+}
+
+.sections {
+	box-sizing: border-box;
+	border-bottom: solid 2px black;
+	margin-top: 5%;
+	padding: 5px;
+	width: 60%;
+	text-align: left;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+.add-to-cart	{
+	text-decoration: none;
+	color:black;
+	font-size: 8px;
+	font-weight: bold;
+	padding: 2px;
+	border: solid 2px black;
+	background-color: transparent;
+	margin-top:5px;
+	margin-bottom:20px;
+	cursor: cell;
+	width: 50%;
+}
+.add-to-cart:hover {
+	background-color:cyan;
+	-webkit-filter: drop-shadow(0 0 2px black);
+	-o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+td {
+	margin:0;
+	text-align: center;
+}
+
+.content-box {
+	box-sizing: border-box;
+	border: 2px solid black;
+	padding: 2px;
+	height: 20px auto;
+	width: 40%;
+	display: none;
+	position: sticky;
+}
+.content-box li {
+	list-style-type: none;
+	text-align: center;
+	width: inherit;
+	height: auto;
+}
+
+#clear-cart, .proceed {
+	background-color: none;
+}
+#clear-cart:hover {
+	background-color:red;
+	color:black;
+	-webkit-filter: drop-shadow(0 0 2px black);
+	-o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+.proceed:hover {
+	background-color:lime;
+	-webkit-filter: drop-shadow(0 0 2px black);
+	-o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition:.2s;
+}
+
+
+
+
+
+
+.show {
+	color:silver;
+	
+}
+.timetoday {
+	margin-top:100px;
+	color:black;
+}
+ontime2 img {
+	margin-right: 3px;
+	height: 5px;
+	width:auto;
+	
+	
+}

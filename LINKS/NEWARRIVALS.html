@@ -1,0 +1,390 @@
+<HTML>
+    <HEAD>
+		<TITLE> NEW ARRIVALS | GIFT</TITLE>
+        <title> CART | GIFT</title>
+        <SCRIPT TYPE="text/javascript" src="../JS/jquery-3.1.1.min.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" src="../JS/NEWARRIVALS.js"></SCRIPT>
+		<link rel="stylesheet" href="../CSS/NEWARRIVALS.CSS"/>
+		 <SCRIPT TYPE="text/javascript" src="../JS/date_time.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" src="../JS/popupcart.js"></SCRIPT>
+		<script src="../JS/sweetalert2.min.js"></script>
+		<script src="../JS/sweetalert2.js"></script>
+		<link rel="stylesheet" href="../CSS/sweetalert2.min.css">
+		<link rel="stylesheet" href="../CSS/sweetalert2.css">
+		
+		
+	</HEAD>
+
+    <BODY>
+
+<CENTER>
+<HEADER>
+       <div class="logo"><img src="../IMAGES/GGobj(black).png"></div>
+</HEADER>
+		
+		<div class="content-box">	
+		<div class="openclose">		
+		</div>
+
+        <div>
+            <ul id="show-cart">
+                <li>???????</li>
+            </ul>
+		<div class="show">
+			
+            <div>You have <span id="count-cart">X</span> items in your cart</div>
+            <div>Total Cart:$<span id="total-cart"></span></div>
+			<button id="clear-cart">CLEAR</button>
+			<button class="proceed" onClick="proceed()">PROCEED TO CHECKOUT</button>
+			
+		</div>
+        </div>
+		</div>
+	
+
+            <TABLE>
+				<div class="sections">TOPS</div>
+                <tr>
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens8.jpg"></div>
+					Rebondo Mesh Dress
+					</a>
+					<a class="price"> ₱600.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Rebondo Mesh Dress" data-price="600">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens 1.jpg"></div>
+					Flight Satin Coaches Jacket
+					</a>
+					<a class="price"> ₱750.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Flight Satin Coaches Jacket" data-price="1200">ADD TO CART</button>
+
+					</td>
+					
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens7.jpg"></div>
+					Magnolia A Line Dress
+					</a>
+					<a class="price"> ₱800.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Magnolia A Line Dress" data-price="800.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%203.jpg"></div>
+					Mixed Plaid Shirt
+					</a>
+					<a class="price"> ₱1100.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Mixed Plaid Shirt" data-price="600">ADD TO CART</button>
+
+					</td>
+				</tr>
+			</TABLE>
+
+
+  <TABLE>
+				<div class="sections">BOTTOMS</div>
+                <tr>
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2025.jpg"></div>
+					Camo Beach Short
+					</a>
+					<a class="price"> ₱650.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Camo Beach Short" data-price="650.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens18.jpg"></div>
+					Bristol Track Short
+					</a>
+					<a class="price"> ₱800.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Bristol Track Short" data-price="800.00">ADD TO CART</button>
+
+					</td>
+					
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2036.jpg"></div>
+					USA Light Wash Denim
+					</a>
+					<a class="price"> ₱1300.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="USA Light Wash Denim" data-price="1300.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens17.jpg"></div>
+					Bristol Track Pants
+					</a>
+					<a class="price"> ₱1100.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Bristol Track Pants" data-price="1100.00">ADD TO CART</button>
+
+					</td>
+				</tr>
+			</TABLE>
+     
+	  <TABLE>
+				<div class="sections">ACCESSORIES</div>
+                <tr>
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2017.jpg"></div>
+					Stock Backpack
+					</a>
+					<a class="price"> ₱2500.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Stock Backpack" data-price="2500.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2018.jpg"></div>
+					Stock Desert Camo Backpack
+					</a>
+					<a class="price"> ₱2750.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Stock Desert Camo Backpack" data-price="2750.00">ADD TO CART</button>
+
+					</td>
+					
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2019.jpg"></div>
+					Stock Camo Duffle Bag
+					</a>
+					<a class="price"> ₱2500.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Stock Camo Duffle Bag" data-price="2500.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2020.jpg"></div>
+					Acid Wash Beach Tote Bag
+					</a>
+					<a class="price"> ₱1100.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Acid Wash Beach Tote Bag" data-price="1100.00">ADD TO CART</button>
+
+					</td>
+
+				</tr>
+
+                <tr>
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens25.jpg"></div>
+					Euclid Strapback
+					</a>
+					<a class="price"> ₱850.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Euclid Strapback" data-price="850.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens26.jpg"></div>
+					Jamboree Camp Cap
+					</a>
+					<a class="price"> ₱750.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Jamboree Camp Cap" data-price="750.00">ADD TO CART</button>
+
+					</td>
+					
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2023.jpg"></div>
+					California Snapback
+					</a>
+					<a class="price"> ₱800.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="California Snapback" data-price="800.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2022.jpg"></div>
+					Gingham Stock Camp Cap
+					</a>
+					<a class="price"> ₱700.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Gingham Stock Camp Cap" data-price="700.00">ADD TO CART</button>
+
+					</td>
+
+				</tr>
+
+<tr>
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2029.jpg"></div>
+					Romeo
+					</a>
+					<a class="price"> ₱1300.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Romeo" data-price="1300.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/mens%2030.jpg"></div>
+					Angelo
+					</a>
+					<a class="price"> ₱1200.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Angelo" data-price="1200.00">ADD TO CART</button>
+
+					</td>
+					
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens21.jpg"></div>
+					Norton
+					</a>
+					<a class="price"> ₱1600.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Norton" data-price="1600.00">ADD TO CART</button>
+
+					</td>
+
+					<td>
+							
+					<a class="productname" href="#">
+					<div class="product"><img src="../IMAGES/womens22.jpg"></div>
+					Luca
+					</a>
+					<a class="price"> ₱1100.00</a><br/>
+					<button class="add-to-cart" href="#" data-name="Luca" data-price="1100.00">ADD TO CART</button>
+
+					</td>
+
+				</tr>
+			</TABLE>
+
+
+
+
+<FOOTER>
+	<div class="timetoday">
+	<CENTER><span id="date_time"></span></CENTER>
+               <SCRIPT TYPE="text/javascript">window.onload = date_time('date_time');</SCRIPT>
+	</div>
+	<ontime2><img src="../IMAGES/p1.png" height="15px" width="25px">PHL / MNL</ontime2>
+</FOOTER>
+</CENTER>
+
+        <SCRIPT>
+
+            $(".add-to-cart").click(function(event){
+                event.preventDefault();
+                var name = $(this).attr("data-name");
+                var price = Number($(this).attr("data-price"));
+
+                shoppingCart.addItemToCart(name, price, 1);
+                displayCart();
+            });
+
+            $("#clear-cart").click(function(event){
+                shoppingCart.clearCart();
+                displayCart();
+            });
+
+            function displayCart() {
+                var cartArray = shoppingCart.listCart();
+                console.log(cartArray);
+                var output = "";
+
+                for (var i in cartArray) {
+                    output += "<li>"
+                        +cartArray[i].name
+                        +" <input class='item-count' type='number' data-name='"
+                        +cartArray[i].name
+                        +"' value='"+cartArray[i].count+"' >"
+                        +" x "+cartArray[i].price
+                        +" = "+cartArray[i].total
+                        +" <button class='plus-item' data-name='"
+                        +cartArray[i].name+"'>+</button>"
+                        +" <button class='subtract-item' data-name='"
+                        +cartArray[i].name+"'>-</button>"
+                        +" <button class='delete-item' data-name='"
+                        +cartArray[i].name+"'>DELETE</button>"
+                        +"</li>";
+                }
+
+                $("#show-cart").html(output);
+                $("#count-cart").html( shoppingCart.countCart() );
+                $("#total-cart").html( shoppingCart.totalCart() );
+            }
+
+            $("#show-cart").on("click", ".delete-item", function(event){
+                var name = $(this).attr("data-name");
+                shoppingCart.removeItemFromCartAll(name);
+                displayCart();
+            });
+
+            $("#show-cart").on("click", ".subtract-item", function(event){
+                var name = $(this).attr("data-name");
+                shoppingCart.removeItemFromCart(name);
+                displayCart();
+            });
+
+            $("#show-cart").on("click", ".plus-item", function(event){
+                var name = $(this).attr("data-name");
+                shoppingCart.addItemToCart(name, 0, 1);
+                displayCart();
+            });
+
+            $("#show-cart").on("change", ".item-count", function(event){
+                var name = $(this).attr("data-name");
+                var count = Number($(this).val());
+                shoppingCart.setCountForItem(name, count);
+                displayCart();
+            });
+
+
+            displayCart();
+			
+			$(document).ready(function(){
+				$(".add-to-cart").click(function(){
+					$(".content-box").slideDown("slow");
+						$("#clear-cart").click(function(){
+							$(".content-box").slideUp("slow");
+							
+							
+			});
+    		});
+			});
+			
+
+        </SCRIPT>
+
+    </BODY>
+</HTML>
+
+
+
+

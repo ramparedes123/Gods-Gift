@@ -1,0 +1,141 @@
+body, html {
+	font-family: arial;
+	margin: 0;
+}
+
+
+
+
+.logo img{
+	background: url("../IMAGES/shopmens1.jpg");
+	text-align: center;
+	margin-top: 20px;
+	height: 400px;
+	width:1200px;
+	max-height: auto;
+	max-height: auto;
+}
+
+.about {
+	margin: 20px;
+	font-size: 15px;
+	font-family: arial;
+	color: slategray;
+	text-align: center;
+}
+
+.about1 {
+	font-family: arial;
+	text-shadow: 2px black;
+	text-align: center;
+	font-size: 13px;
+	color: black;	
+}
+
+.logo2 img{
+	-webkit-filter: drop-shadow(0 0 2px black);		
+}
+
+
+
+footer {
+	border-top: solid 2px black;
+	font-family: arial;
+	color: black;
+	width: 100%;
+	background-color: springgreen;
+	padding: 10px 0px;
+
+}
+
+footer nav {
+	text-align: center;
+}
+
+footer nav ul {
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left:50px;
+	margin:0;
+	list-style-type: none;
+	
+}
+
+footer nav ul li a {
+	box-sizing: border-box;
+	border: solid 1px white;
+	padding: 5px;
+	font-weight: 400;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+footer nav ul li a:hover {
+	background: red;
+	color: white;
+	cursor:cell;
+	height:2px;
+	width:50%px;
+	position: relative;
+	-o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 12px;
+	color: gray;
+}
+
+.social-links1:hover {
+	-webkit-filter: drop-shadow(0 0 2px aqua);
+	
+	cursor:default;
+	height:60px;
+	width:100%px;
+	-o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+
+}
+
+.social-links2:hover {
+	-webkit-filter: drop-shadow(0 0 2px #8B4513);
+	cursor:default;
+	height:60px;
+	width:100%px;
+	-o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+
+}
+
+.social-links3:hover {
+	-webkit-filter: drop-shadow(0 0 2px red);
+	cursor:default;
+	height:60px;
+	width:100%px;
+	-o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+
+}
+
+ontime {
+	font-size: 12px;
+	color: white;
+	font-family: monospace;
+}
